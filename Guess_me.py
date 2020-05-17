@@ -5,10 +5,10 @@ while guess_count < guess_limit:
     guess=int(input('guess :'))
     guess_count=guess_count+1
     if guess==secret_number:
-        print('you win')
+        print('you won!')
         break
     else:
         if guess_limit-guess_count==0:
-            print('you faild')
+            print('you faild!')
         else:
             print('enter anohter number you has '+str(guess_limit-guess_count)+' chance')
