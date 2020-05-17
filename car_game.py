@@ -1,5 +1,6 @@
 print('if you need help enter h')
 command=''
+#to help in check the state of the car
 start=False
 stop=False
 while True:
@@ -10,6 +11,7 @@ while True:
         enter st to stop the car
         enter q to exit 
         ''')
+        #.lower() to ensure that the program will will alweys check lower case of the char
     elif command.lower()=='s':
         if start:
             print('the car already running')
